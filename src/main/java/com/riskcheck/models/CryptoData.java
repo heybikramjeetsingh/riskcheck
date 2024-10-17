@@ -5,6 +5,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CryptoData {
+    private double[] historicalPrices; // Optional: Store historical prices for calculations
+
 
     private String id;
     private String name;

@@ -14,6 +14,14 @@ import java.io.IOException;
 
 public class ApiClient {
 
+    public double[] fetchHistoricalPrices(String cryptoId) {
+        return null;
+        // Implementation for fetching historical price data for volatility calculation
+    }
+    public String fetchSentimentFromTwitter(String cryptoName) {
+        return cryptoName;
+        // Implementation for fetching social media sentiment for the sentiment score
+    }
     private static final String API_URL = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd";
 
     public CryptoData[] fetchCryptoData() throws IOException {
