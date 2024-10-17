@@ -31,12 +31,6 @@ The score is computed based on simple rules for now:
 - Cryptocurrencies with a very small market cap and low volume might receive higher risk scores.
 - Well-established cryptocurrencies like Bitcoin and Ethereum generally have lower risk scores.
 
-## Installation and Usage
-
-### Prerequisites
-- Java 23
-- Maven 3.9.9+
-
 ## Author
 - Bikram Jeet Singh
 - GitHub: heybikramjeetsingh
