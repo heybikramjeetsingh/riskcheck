@@ -41,7 +41,7 @@ public class RiskAnalyzer {
                 double risk = calculateRisk(cryptoData);
                 String riskCategory = classifyRisk(risk);
                 System.out.println();
-                System.out.printf("Crypto: %s | Risk Score: %.2f%n | Risk Category: %s%n", cryptoData.getName(), risk, riskCategory);
+                System.out.printf("Crypto: %s | Current Price: $%.4f%n > Risk Score: %.2f%n > Risk Category: %s%n", cryptoData.getName(), cryptoData.getCurrentPrice(), risk, riskCategory);
             }
         } catch (IOException e) {
             System.err.println("Error fetching data: " + e.getMessage());
